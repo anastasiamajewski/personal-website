@@ -1,4 +1,6 @@
+@import "header-colors"
+
 .header {
 padding:10px;
-background-color: red;
+background-color: var(--header-background);
 }
