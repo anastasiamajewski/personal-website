@@ -1,6 +1,16 @@
-@import "header-colors"
 
 .header {
-padding:10px;
-background-color: var(--header-background);
+    position: fixed;
+    right: 30;
+    left: 0;
+     z-index: 1;
+     //padding: 20px;
+     margin-top: 0;
+     //align-self: stretch;
+     text-align: center;
+     background-color: var(--tertiary);
+}
+
+.title {
+    font-size: 10px;
 }

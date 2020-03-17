@@ -1,3 +1,3 @@
-:root{--primary: mintcream;--secondary: mediumseagreen}*{box-sizing:border-box}body{font-family:sans-serif;color:var(--secondary);background:var(--primary)}.mb-20{margin-bottom:20px}.header{padding:20px}
+:root{--primary: oldLace;--secondary: darkseagreen;--tertiary: rgb(58, 97, 51);--header-background: salmon}*{box-sizing:border-box}body{height:100vh;font-family:sans-serif;color:var(--secondary);background:var(--primary)}.header{position:fixed;right:30;left:0;z-index:1;margin-top:0;text-align:center;background-color:var(--tertiary)}.title{font-size:10px}
 
 /*# sourceMappingURL=styles.css.map */
