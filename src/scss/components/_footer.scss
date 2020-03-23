@@ -1,0 +1,17 @@
+.footer {
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background: var(--secondary);
+    display: flex;
+    right: 0;
+    left: 0;
+    position: sticky;
+    border-top: 2px solid var(--quaternary);
+}
+
+.footer__text {
+    color: var(--tertiary);
+    font-size: small;
+    margin-right: 8px;
+    }

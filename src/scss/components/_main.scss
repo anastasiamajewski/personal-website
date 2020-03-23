@@ -1,5 +1,21 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--quaternary);
+
+}
+
 .main__img {
+    border-radius: 20%;
+    height: auto;
+    width: 180px;
+    object-fit: fill;
+    margin-bottom: 5px;
+    opacity: 1;
+}
 
-margin-top: 70px;
+.box {
 
+    padding: 10px;
 }

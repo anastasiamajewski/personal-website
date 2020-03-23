@@ -3,10 +3,25 @@
 }
 
 body {
+    font-family: Helvetica, sans-serif;
     display: grid;
-    grid-template-rows: 48px auto 48px;
+    grid-template-rows: 70px auto 48px;
     height: 100vh;
-    font-family: sans-serif;
-    color: var(--secondary);
-    background: var(--primary);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: white;
 }
+
+main {
+    display: inline-block;
+    padding: 16px;
+    overflow: scroll;
+    width: 100%;
+  }
+
+hr {
+
+width: auto;
+border: 1px solid var(--quaternary);
+  }
